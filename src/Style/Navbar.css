@@ -1,0 +1,27 @@
+ul {
+    display: flex;
+    width: 28rem;
+    /* background-color: forestgreen; */
+    align-items: center;
+    height: 1rem;
+    padding: 0.5rem 0;
+}
+
+.NavLink {
+    text-decoration: none;
+    margin: 0 1rem;
+    font-weight: bold;
+    color: black;
+}
+
+li {
+    list-style-type: none;
+    font-family: 'Tajawal', sans-serif;
+    font-weight: bold;
+
+}
+
+li:hover {
+    border-bottom: 0.2rem solid #000033;
+    color: #000033;
+}

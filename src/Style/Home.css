@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300&display=swap');
+
+.body-image {
+    background-image: url('../../public/Images/banner.png');
+    width: 80%;
+    height: 21rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 3rem auto;
+    /* background-color: darkmagenta; */
+}
+
+.bodydata {
+    width: 80%;
+    height: 21rem;
+    margin: 3rem auto;
+    background-color: #e6eaee;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.bodydata img {
+    height: 19rem;
+}
+
+.body-data-details {
+    width: 47.5%;
+    height: auto;
+    /* background-color: fuchsia; */
+}
+
+.body-data-heading {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 2rem;
+    margin: 0rem 0 0 0;
+}
+
+.body-data-para {
+    font-family: 'Cairo', sans-serif;
+    font-size: 0.8rem;
+    text-align: justify;
+    /* padding: 0.2rem 2rem; */
+}
+
+.btn {
+    background-color: transparent;
+    border: 0.1rem solid #000033;
+    color: #000033;
+    width: 9.5rem;
+    height: 2.5rem;
+    box-shadow: none;
+    cursor: pointer;
+    /* display: flex; */
+}
